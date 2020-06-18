@@ -28,9 +28,9 @@ def find_min_in_nested_arrays(array)
   while row_index < array.length do
     inner_index = 0
     while inner_index < array.length do
-      new_arr[row_index] = array[row_index][inner_index]
-      if new_arr[row_index] > array[row_index][inner_index]
-        new_arr[row_index]= array[row_index][inner_index]
+      new_array[row_index] = array[row_index][inner_index]
+      if new_array[row_index] > array[row_index][inner_index]
+        new_array[row_index]= array[row_index][inner_index]
         # binding.pry
         end
       inner_index += 1
