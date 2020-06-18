@@ -27,8 +27,9 @@ def find_min_in_nested_arrays(array)
   row_index = 0
   while row_index < array.length do
     inner_index = 0
-    while inner_index < array.length do
+
       new_array[row_index] = array[row_index][inner_index]
+      while inner_index < array.length do
       if new_array[row_index] > array[row_index][inner_index]
         new_array[row_index]= array[row_index][inner_index]
         # binding.pry
