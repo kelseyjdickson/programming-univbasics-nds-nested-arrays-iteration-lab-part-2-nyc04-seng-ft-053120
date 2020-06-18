@@ -31,7 +31,7 @@ def find_min_in_nested_arrays(array)
 
       if array[row_index][inner_index] > lowest_arr
         binding.pry
-        lowest_array.push(new_array)
+        lowest_arr.push(new_array)
 
         
       end
