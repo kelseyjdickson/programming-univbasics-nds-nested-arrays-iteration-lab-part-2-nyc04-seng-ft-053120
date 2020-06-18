@@ -33,7 +33,7 @@ def find_min_in_nested_arrays(array)
         binding.pry
         lowest_array.push(new_array)
 
-          puts "hi"
+        
       end
       inner_index += 1
     end
