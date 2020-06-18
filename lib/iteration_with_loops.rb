@@ -30,7 +30,7 @@ def find_min_in_nested_arrays(array)
     while inner_index < array.length do
       binding.pry
       if array[row_index][inner_index] < lowest_arr
-        new_array += array[row_index][inner_index]
+        lowest_array.push(new_array)
       end
       inner_index += 1
     end
